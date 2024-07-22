@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Full Screen Timer</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+    #timer {
+      font-size: 5em;
+    }
+    #controls {
+      position: absolute;
+      bottom: 20px;
+    }
+    button {
+      font-size: 1em;
+      padding: 10px 20px;
+      margin: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="timer">00:00:00</div>
+  <div id="controls">
+    <button id="stop">Stop</button>
+    <button id="reset">Reset</button>
+  </div>
+  <script src="timer.js"></script>
+</body>
+</html>

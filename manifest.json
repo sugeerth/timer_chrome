@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Timer",
+  "version": "1.0",
+  "description": "A simple full-screen timer",
+  "permissions": ["tabs", "windows"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.jpg",
+      "48": "icon.jpg",
+      "128": "icon.jpg"
+    }
+  }
+}
